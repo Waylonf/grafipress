@@ -17,6 +17,11 @@
  *
  * @package WordPress
  */
+define('WP_SITEURL', 'http://' . $_SERVER['SERVER_NAME'] . '/wordpressgit');
+define('WP_HOME',    'http://' . $_SERVER['SERVER_NAME']);
+define('WP_CONTENT_DIR', $_SERVER['DOCUMENT_ROOT'] . '/wp-content');
+define('WP_CONTENT_URL', 'http://' . $_SERVER['SERVER_NAME'] . '/wp-content');
+define('WP_DEFAULT_THEME', 'grafipress');
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
